@@ -45,7 +45,7 @@ shotgun (projectile that grows and weakens as it travels) (test model done)
 
 smg (rapid high spread low damage hitscan)
 
-dmr (high damage low fire rate hitscan) (test model done)
+dmr (high damage low fire rate hitscan, with tracer beam) (test model done)
 
 minigun (rapid high spread med-high speed projectiles)
 
@@ -115,3 +115,8 @@ the vibes im imagining could best be described as "geigeresque cyberpunk". weapo
 
 
 the test weapon models all use the same materials, just different geometry.
+
+
+
+DMR ADS position
+0, -.09, -0.09
