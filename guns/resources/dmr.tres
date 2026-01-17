@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://dy6jmfrnnf2kx"]
+
+[ext_resource type="PackedScene" uid="uid://cjm77qqvw17b0" path="res://guns/blend/dmr.blend" id="1_ay6jn"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_sntcs"]
+
+[resource]
+script = ExtResource("1_sntcs")
+mesh = ExtResource("1_ay6jn")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 0.6
+hitscan = true
+can_ADS = true
+scan_range = 500.0
+fire_speed = 0.625
+run_speed = 0.9
+sprint_speed = 1.6
+ads_speed = 0.5
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

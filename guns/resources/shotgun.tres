@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://dpx8j3x6r1pyn"]
+
+[ext_resource type="PackedScene" uid="uid://b01e7rn4ky0g7" path="res://guns/blend/shotgun.blend" id="1_mrvih"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_t2ciy"]
+
+[resource]
+script = ExtResource("1_t2ciy")
+mesh = ExtResource("1_mrvih")
+fire_speed = 0.625
+run_speed = 0.9
+sprint_speed = 1.6
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"
