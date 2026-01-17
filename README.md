@@ -39,39 +39,43 @@ medium melee (swords for short range hitscan, maces for wide swings. middle spee
 
 heavy melee (spears for close hitscan, axes for wide swings. slow, longer range, higher damage. worthy of being a primary in its own right)
 
-pistol
+pistol (mid speed mid damage hitscan. can ads)
 
 shotgun (projectile that grows and weakens as it travels) (test model done)
 
-smg (rapid high spread low damage hitscan)
+smg (rapid low spread hitscan. no ads)
 
-dmr (high damage low fire rate hitscan, with tracer beam) (test model done)
+assault rifle (rapid high spread hitscan. can ads)
 
-minigun (rapid high spread med-high speed projectiles)
+dmr (high damage low fire rate hitscan, with tracer beam. can ads) (test model done)
 
-flamethrower (conic frustum that ticks DoT)
+minigun (rapid high spread med-high speed projectiles. no ads)
 
-shield (blocks all in view)
+flamethrower (conic frustum that ticks DoT. no ads)
 
-grenade launcher (slow projectiles that explode on impact. persmaps weapon variations within the category for parabolic vs straight-line)
+shield (blocks all incoming damage in view. auto dual-wields with other weapons, prevents ads)
+
+grenade launcher (slow parabolic projectiles that explode on impact. no ads)
+
+rocket launcher (slow direct-fire projectiles that explode on impact. can ads)
 
 
 classes:
 
-- barbarian (6'4" buff goth woman. main class ability is rage which restricts her to secondary and melee, and causes a heal-over-time and double jump that extends duration as she deals damage to things. class feats include bonuses to her rage itself, or new weapon types in the secondary and melee slots.)
-	-primary slot: DMR
+- barbarian (6'4" buff goth woman. main class ability is rage which restricts her to secondary and melee, and causes a heal-over-time and double jump that extends duration as she deals damage to things. class feats include bonuses to her rage itself (speed boost, jump height, fire speed, etc), or new weapon types in the secondary and melee slots.)
+	-primary slot: assault rifle
 	-secondary slot: shotgun
 	-melee slot: light melee
 
-- witch (small but deeply unhinged woman. main gimmick is Summoning Portals, which can summon Tendrils, or a Laser Beam, or a Noxious Cloud, or maybe other things. class feats are specific portals, plus bonuses to alchemy for creating consumable potions.)
+- witch (small but deeply unhinged woman. main gimmick is Summoning Portals, which can summon Tendrils, or a Laser Beam, or a Noxious Cloud, or maybe other things. class feats are specific portals, plus bonuses to alchemy for creating consumables out of Cash.)
 	-primary slot: SMG
 	-secondary slot: pistol
 	-melee slot: light melee
 
 - paladin (big square-silhouetted beefcake of a boy. main class ability is a heal. primary is either a minigun or a tower shield, secondary slot is limited to More melee weapons, but if running a shield he keeps it out while swinging his weapons around. class feats include survivability tools EXCEPT for mobility.)
-	-primary: minigun/shield
-	-secondary: heavy melee
-	-melee: medium melee
+	-primary: rocket launcher
+	-secondary: shield
+	-melee: heavy melee
 
 - pyro (another unwell woman, but fire-flavored and tacticool. class ability is fire magic, such as Fireball (fuckoff explosion she can rocket jump off of) or Fire Breath (cone of fire that she can bfg boost off of). class feats are overtly schmovement based like jump height, or indirectly schmovement based like spell knockback and cooldown)
 	-primary: flamethrower
@@ -84,12 +88,12 @@ classes:
 	-melee: light melee
 
 - sniper (tacticool op #2. main gimmick is a toggle that increases weapon handling to incredible big and reduces sway when ADSing for long ranged applications of fuck. class feats are primarily aggro reduction and sensor cloaking, or active stealth (stand still for X seconds and turn invisible type shit))
-	-primary: DMR
+	-primary: DMR/assault rifle
 	-secondary: pistol
 	-melee: light melee
 
-- sapper (goblin with a grenade launcher. main gimmick is being a doohicking little creacher, able to break down loot into Components to save space for everyone. class feats mainly include buffs to explosives like AoE and damage falloff, but also disassembly yield - both quantity and luck)
-	-primary: grenade launcher
+- sapper (goblin with a grenade launcher. main gimmick is being a doohicking little creacher, able to break down loot into Cash to save space for everyone. class feats mainly include buffs to explosives like AoE and damage falloff, but also disassembly yield - both quantity and luck)
+	-primary: grenade launcher/rocket launcher
 	-secondary: SMG
 	-melee: medium melee
 
@@ -98,7 +102,7 @@ classes:
 	-secondary: shotgun
 	-melee: heavy melee
 
-- greature (greature. abilities are various terrain fuckery, such as and including Making Walls, Making Slow Zones (or Slones), and Making Anti-Gun Zones. class feats are odd schmovements like wall-climbing, fall-stalling, etc.)
+- spider (giant enemy spider. abilities are various terrain fuckery, such as and including Making Walls, Making Slow Zones (or Slones), etc. class feats are odd schmovements like wall-climbing, fall-stalling, etc.)
 	-primary: SMG
 	-secondary: pistol
 	-melee: medium melee
@@ -113,10 +117,7 @@ unsure if i want some sorta like. kit rental system, or if you wanna go out nake
 
 the vibes im imagining could best be described as "geigeresque cyberpunk". weapons are largely lasers and sci-fi, but perhaps sometimes there's organic components to make your gun work. yea there'll be a forest map bc extraction shooters need a forest map, but there will be an unexplained Humming Monolith in the middle of the map that has an opening in the side and if you go inside you insta die. there will be neon. there will be meat. there will be nature desperately fighting back against the corrupting influences of the neon and the meat. like if Doom (2016) took place in the appalachian mountains instead of mars, and the gateway to hell was a 90s roller rink. (actually dang a 90s roller rink in the middle of the woods would be a fantastic map)
 
+SHADOWRUN FLAVORED SETTING. CHICAGO, BUG CITY. 
+
 
 the test weapon models all use the same materials, just different geometry.
-
-
-
-DMR ADS position
-0, -.09, -0.09

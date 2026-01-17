@@ -79,7 +79,7 @@ func _physics_process(delta: float) -> void:
 		isSprinting = false
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
-	var targetSpeed = SPEED * (SPRINT if isSprinting else 1) * (0.5 if isADS else 1)
+	var targetSpeed := SPEED * (SPRINT if isSprinting else 1.0) * (0.5 if isADS else 1.0)
 	var input_dir := Input.get_vector("left", "right", "up", "down")
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	if direction:
@@ -104,7 +104,7 @@ func _physics_process(delta: float) -> void:
 			anim_player.play("idle")
 	
 	#FOV from speed
-	var targetFOV = FOV * (1.2 if (isSprinting and input_dir != Vector2.ZERO) else 1) * (0.6 if isADS else 1)
+	var targetFOV := FOV * (1.2 if (isSprinting and input_dir != Vector2.ZERO) else 1.0) * (0.6 if isADS else 1.0)
 	camera.fov = lerp(camera.fov, targetFOV, 0.2)
 	
 	move_and_slide()
