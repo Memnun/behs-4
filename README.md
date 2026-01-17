@@ -31,6 +31,8 @@ Health
 Mana
 
 
+weapon todo: LMelee, MMelee, HMelee, Pistol, Minigun, Flamethrower, Shield, GLauncher, RLauncher
+
 Weapon types:
 
 light melee (knives for v short range hitscan, gauntlets for wide swings. fastest, shortest range, same damage as medium melee)
@@ -43,9 +45,9 @@ pistol (mid speed mid damage hitscan. can ads)
 
 shotgun (projectile that grows and weakens as it travels) (test model done)
 
-smg (rapid low spread hitscan. no ads)
+smg (rapid low spread hitscan. no ads) (test model done)
 
-assault rifle (rapid high spread hitscan. can ads)
+assault rifle (rapid high spread hitscan. can ads) (test model done)
 
 dmr (high damage low fire rate hitscan, with tracer beam. can ads) (test model done)
 
