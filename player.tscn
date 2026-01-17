@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://cfmkegeb28tk8"]
+[gd_scene load_steps=14 format=3 uid="uid://cfmkegeb28tk8"]
 
 [ext_resource type="Script" uid="uid://dw61udjvtn2b4" path="res://player.gd" id="1_4flbx"]
 [ext_resource type="PackedScene" uid="uid://b01e7rn4ky0g7" path="res://guns/blend/shotgun.blend" id="2_i3pqv"]
 [ext_resource type="PackedScene" uid="uid://cjm77qqvw17b0" path="res://guns/blend/dmr.blend" id="3_hqtel"]
+[ext_resource type="PackedScene" uid="uid://b3eafg0c5upd6" path="res://guns/weapon.tscn" id="4_hqtel"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_onrkg"]
 
@@ -280,6 +281,9 @@ visible = false
 [node name="dmr" parent="Camera3D" instance=ExtResource("3_hqtel")]
 transform = Transform3D(0.9999999, 0, 0, 0, 0.9999997, 0, 0, 0, 0.9999998, 0.3, -0.28, -0.45)
 visible = false
+
+[node name="Weapon" parent="Camera3D" instance=ExtResource("4_hqtel")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, -0.28, -0.45)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

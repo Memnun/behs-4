@@ -5,6 +5,7 @@ extends CharacterBody3D
 
 @onready var shotgun = $Camera3D/shotgun
 @onready var dmr = $Camera3D/dmr
+@onready var weapon = $Camera3D/Weapon
 
 const SPEED = 5.0
 const SPRINT = 1.6

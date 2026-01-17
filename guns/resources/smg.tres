@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://dtbhnc37rqanq"]
+
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_3mhas"]
+[ext_resource type="PackedScene" uid="uid://1yka2sqfifis" path="res://guns/blend/smg.blend" id="1_qtom2"]
+
+[resource]
+script = ExtResource("1_3mhas")
+name = &"SMG"
+mesh = ExtResource("1_qtom2")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 1.0
+hitscan = true
+scan_range = 100.0
+fire_speed = 0.1
+run_speed = 1.0
+sprint_speed = 1.6
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

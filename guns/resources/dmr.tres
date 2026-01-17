@@ -5,14 +5,15 @@
 
 [resource]
 script = ExtResource("1_sntcs")
+name = &"DMR"
 mesh = ExtResource("1_ay6jn")
 sprint_FOV_zoom = 1.2
 ADS_FOV_zoom = 0.6
 hitscan = true
 can_ADS = true
 scan_range = 500.0
-fire_speed = 0.625
-run_speed = 0.9
+fire_speed = 1.0
+run_speed = 0.8
 sprint_speed = 1.6
 ads_speed = 0.5
 metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

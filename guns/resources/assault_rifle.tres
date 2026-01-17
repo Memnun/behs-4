@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://d3yjt1c682f"]
+
+[ext_resource type="PackedScene" uid="uid://cmoptgesitl3j" path="res://guns/blend/assault_rifle.blend" id="1_6u06l"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_fresm"]
+
+[resource]
+script = ExtResource("1_fresm")
+name = &"Assault Rifle"
+mesh = ExtResource("1_6u06l")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 0.6
+hitscan = true
+can_ADS = true
+scan_range = 100.0
+fire_speed = 0.1
+run_speed = 0.9
+sprint_speed = 1.6
+ads_speed = 0.5
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"
