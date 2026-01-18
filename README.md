@@ -41,9 +41,9 @@ medium melee (swords for short range hitscan, maces for wide swings. middle spee
 
 heavy melee (spears for close hitscan, axes for wide swings. slow, longer range, higher damage. worthy of being a primary in its own right)
 
-pistol (mid speed mid damage hitscan. can ads)
+pistol (mid speed mid damage hitscan. can ads) (test model done)
 
-shotgun (projectile that grows and weakens as it travels) (test model done)
+shotgun (nine hitscan pellets in fixed formation. no ads) (test model done)
 
 smg (rapid low spread hitscan. no ads) (test model done)
 
@@ -51,7 +51,7 @@ assault rifle (rapid high spread hitscan. can ads) (test model done)
 
 dmr (high damage low fire rate hitscan, with tracer beam. can ads) (test model done)
 
-minigun (rapid high spread med-high speed projectiles. no ads)
+minigun (rapid high spread med-high speed projectiles. no ads) (test model done)
 
 flamethrower (conic frustum that ticks DoT. no ads)
 
@@ -90,13 +90,13 @@ classes:
 	-melee: light melee
 
 - sniper (tacticool op #2. main gimmick is a toggle that increases weapon handling to incredible big and reduces sway when ADSing for long ranged applications of fuck. class feats are primarily aggro reduction and sensor cloaking, or active stealth (stand still for X seconds and turn invisible type shit))
-	-primary: DMR/assault rifle
+	-primary: DMR
 	-secondary: pistol
 	-melee: light melee
 
 - sapper (goblin with a grenade launcher. main gimmick is being a doohicking little creacher, able to break down loot into Cash to save space for everyone. class feats mainly include buffs to explosives like AoE and damage falloff, but also disassembly yield - both quantity and luck)
-	-primary: grenade launcher/rocket launcher
-	-secondary: SMG
+	-primary: rocket launcher
+	-secondary: grenade launcher
 	-melee: medium melee
 
 - guard (centaur with a minigun. has special leg armor of "a cart" that can be loaded with loot and/or party members. main class ability is a dash that can deal impact damage and bowl through enemies, but has a low turn speed. class feats include dash turn rate, speed, duration, etc; as well as the ability to equip bigger and better carts)
