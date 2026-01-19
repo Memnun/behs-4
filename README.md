@@ -35,11 +35,13 @@ weapon todo: LMelee, MMelee, HMelee, Pistol, Minigun, Flamethrower, Shield, GLau
 
 Weapon types:
 
-light melee (knives for v short range hitscan, gauntlets for wide swings. fastest, shortest range, same damage as medium melee)
+(melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
 
-medium melee (swords for short range hitscan, maces for wide swings. middle speed, middle range)
+light melee (knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee)
 
-heavy melee (spears for close hitscan, axes for wide swings. slow, longer range, higher damage. worthy of being a primary in its own right)
+medium melee (swords for short stab, maces for swings. middle speed, middle range)
+
+heavy melee (spears for close stab, axes for swings. slow, longer range, higher damage. worthy of being a primary in its own right)
 
 pistol (mid speed mid damage hitscan. can ads) (test model done)
 
@@ -94,12 +96,12 @@ classes:
 	-secondary: pistol
 	-melee: light melee
 
-- sapper (goblin with a grenade launcher. main gimmick is being a doohicking little creacher, able to break down loot into Cash to save space for everyone. class feats mainly include buffs to explosives like AoE and damage falloff, but also disassembly yield - both quantity and luck)
+- goblin (goblin with a grenade launcher. main gimmick is being a doohicking little creacher, able to break down loot into Cash to save space for everyone. class feats mainly include buffs to explosives like AoE and damage falloff, but also disassembly yield - both quantity and luck)
 	-primary: rocket launcher
 	-secondary: grenade launcher
 	-melee: medium melee
 
-- guard (centaur with a minigun. has special leg armor of "a cart" that can be loaded with loot and/or party members. main class ability is a dash that can deal impact damage and bowl through enemies, but has a low turn speed. class feats include dash turn rate, speed, duration, etc; as well as the ability to equip bigger and better carts)
+- centaur (centaur with a minigun. has special leg armor of "a cart" that can be loaded with loot and/or party members. main class ability is a dash that can deal impact damage and bowl through enemies, but has a low turn speed. class feats include dash turn rate, speed, duration, etc; as well as the ability to equip bigger and better carts)
 	-primary: minigun
 	-secondary: shotgun
 	-melee: heavy melee

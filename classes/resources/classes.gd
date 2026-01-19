@@ -9,12 +9,11 @@ class_name Classes extends Resource
 @export var mesh : PackedScene
 @export var base_FOV : float
 @export_category("Weapon Slots")
-@export var primary_weapon : String
-@export var secondary_weapon : String
-@export var melee_weapon : String
+@export var primary_weapon : Resource
+@export var secondary_weapon : Resource
+@export var melee_weapon : Resource
 @export_category("Movement Stats")
 @export var run_speed : float
-@export var sprint_speed : float
 @export var jumps : int
 @export var jump_strength : float
 @export var gravity : float

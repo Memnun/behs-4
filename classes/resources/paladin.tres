@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Classes" load_steps=2 format=3 uid="uid://dk8n12rvmrpuh"]
+
+[ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_fkft7"]
+
+[resource]
+script = ExtResource("1_fkft7")
+name = &"Paladin"
+position = Vector3(0, 1, 0)
+base_FOV = 75.0
+run_speed = 5.0
+jumps = 1
+jump_strength = 4.5
+gravity = 9.8
+metadata/_custom_type_script = "uid://c2tlqd66a54nv"

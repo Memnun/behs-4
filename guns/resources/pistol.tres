@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://vllu5cwfusm4"]
+
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_dauwu"]
+[ext_resource type="PackedScene" uid="uid://du82lwgfnk3b2" path="res://guns/blend/pistol.blend" id="1_hmiry"]
+
+[resource]
+script = ExtResource("1_dauwu")
+name = &"Pistol"
+position = Vector3(0.3, -0.28, -0.45)
+mesh = ExtResource("1_hmiry")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 0.85
+hitscan = true
+can_ADS = true
+scan_range = 100.0
+fire_speed = 0.325
+run_speed = 1.15
+sprint_speed = 1.8
+ads_speed = 0.75
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

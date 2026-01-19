@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Classes" load_steps=4 format=3 uid="uid://b4fob51c6a73t"]
+
+[ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_v2xti"]
+[ext_resource type="Resource" uid="uid://dpx8j3x6r1pyn" path="res://guns/resources/shotgun.tres" id="1_xaqhi"]
+[ext_resource type="Resource" uid="uid://dtbhnc37rqanq" path="res://guns/resources/smg.tres" id="3_ve324"]
+
+[resource]
+script = ExtResource("1_v2xti")
+name = &"Scout"
+position = Vector3(0, 1, 0)
+base_FOV = 7.5
+primary_weapon = ExtResource("1_xaqhi")
+secondary_weapon = ExtResource("3_ve324")
+run_speed = 5.0
+jumps = 1
+jump_strength = 4.5
+gravity = 9.8
+metadata/_custom_type_script = "uid://c2tlqd66a54nv"

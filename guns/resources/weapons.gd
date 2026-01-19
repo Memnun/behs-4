@@ -1,15 +1,16 @@
 class_name Weapons extends Resource
 
-
 @export var name : StringName
 @export_category("Weapon Orientation")
 @export var position : Vector3
 @export var rotation : Vector3
 @export_category("Visual Settings")
 @export var mesh : PackedScene
+@export var alt_mesh : PackedScene
 @export var sprint_FOV_zoom : float
 @export var ADS_FOV_zoom : float
 @export_category("Weapon Stats")
+@export var is_melee : bool
 @export var hitscan : bool
 @export var can_ADS : bool
 @export var scan_range : float

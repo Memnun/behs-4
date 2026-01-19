@@ -6,6 +6,7 @@
 [resource]
 script = ExtResource("1_fresm")
 name = &"Assault Rifle"
+position = Vector3(0.3, -0.28, -0.45)
 mesh = ExtResource("1_6u06l")
 sprint_FOV_zoom = 1.2
 ADS_FOV_zoom = 0.6

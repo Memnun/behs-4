@@ -6,6 +6,7 @@
 [resource]
 script = ExtResource("1_sntcs")
 name = &"DMR"
+position = Vector3(0.3, -0.28, -0.45)
 mesh = ExtResource("1_ay6jn")
 sprint_FOV_zoom = 1.2
 ADS_FOV_zoom = 0.6

@@ -7,16 +7,16 @@ extends Node3D
 
 
 @export var class_skin : Node
-var scene_instance
+@onready var weapon = $"../Camera3D/Weapon"
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	weapon.WEAPON_TYPE = CLASS_TYPE.primary_weapon
 	load_class()
 
 func load_class() -> void:
-	scene_instance = CLASS_TYPE.mesh.instantiate()
-	scene_instance.set_name("ClassSkin")
-	add_child(scene_instance)
-	class_skin = $ClassSkin
+	#for n in get_children(): n.queue_free()
+	#class_skin = CLASS_TYPE.mesh.instantiate()
+	#class_skin.set_name("ClassSkin")
 	position = CLASS_TYPE.position
 	rotation_degrees = CLASS_TYPE.rotation

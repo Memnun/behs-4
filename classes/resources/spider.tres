@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Classes" load_steps=4 format=3 uid="uid://gkdxuw6rrown"]
+
+[ext_resource type="Resource" uid="uid://dtbhnc37rqanq" path="res://guns/resources/smg.tres" id="1_h0jhx"]
+[ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_mv8tm"]
+[ext_resource type="Resource" uid="uid://vllu5cwfusm4" path="res://guns/resources/pistol.tres" id="3_o5vx6"]
+
+[resource]
+script = ExtResource("1_mv8tm")
+name = &"Spider"
+position = Vector3(0, 1, 0)
+base_FOV = 75.0
+primary_weapon = ExtResource("1_h0jhx")
+secondary_weapon = ExtResource("3_o5vx6")
+run_speed = 5.0
+jumps = 1
+jump_strength = 4.5
+gravity = 9.8
+metadata/_custom_type_script = "uid://c2tlqd66a54nv"
