@@ -1,6 +1,8 @@
-[gd_resource type="Resource" script_class="Classes" load_steps=3 format=3 uid="uid://dvc63v6qyd8mm"]
+[gd_resource type="Resource" script_class="Classes" load_steps=5 format=3 uid="uid://dvc63v6qyd8mm"]
 
+[ext_resource type="Resource" uid="uid://ctltn48arl2pe" path="res://guns/resources/melee_light.tres" id="1_hi4oh"]
 [ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_ta304"]
+[ext_resource type="Resource" uid="uid://bg7a7vj8impme" path="res://guns/resources/flamethrower.tres" id="1_yeg3f"]
 [ext_resource type="Resource" uid="uid://dpx8j3x6r1pyn" path="res://guns/resources/shotgun.tres" id="2_njwsq"]
 
 [resource]
@@ -8,9 +10,15 @@ script = ExtResource("1_ta304")
 name = &"Pyro"
 position = Vector3(0, 1, 0)
 base_FOV = 75.0
+primary_weapon = ExtResource("1_yeg3f")
 secondary_weapon = ExtResource("2_njwsq")
+melee_weapon = ExtResource("1_hi4oh")
 run_speed = 5.0
 jumps = 1
-jump_strength = 4.5
+jump_strength = 5.5
 gravity = 9.8
+ground_accel = 11.0
+ground_decel = 7.0
+ground_friction = 3.5
+air_accel = 800.0
 metadata/_custom_type_script = "uid://c2tlqd66a54nv"

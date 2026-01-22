@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://bg7a7vj8impme"]
+
+[ext_resource type="PackedScene" uid="uid://cxy30kv0n6inm" path="res://guns/blend/flamethrower.blend" id="1_1nqo4"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_314ra"]
+
+[resource]
+script = ExtResource("1_314ra")
+name = &"Flamethrower"
+position = Vector3(0.3, -0.33, -0.55)
+mesh = ExtResource("1_1nqo4")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 1.0
+hitscan = true
+scan_range = 15.0
+fire_speed = 0.1
+run_speed = 0.65
+sprint_speed = 1.75
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

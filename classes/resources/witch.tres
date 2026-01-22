@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="Classes" load_steps=4 format=3 uid="uid://cj3xfmreep68h"]
+[gd_resource type="Resource" script_class="Classes" load_steps=5 format=3 uid="uid://cj3xfmreep68h"]
 
 [ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_d2g0c"]
+[ext_resource type="Resource" uid="uid://ctltn48arl2pe" path="res://guns/resources/melee_light.tres" id="1_m64rg"]
 [ext_resource type="Resource" uid="uid://dtbhnc37rqanq" path="res://guns/resources/smg.tres" id="1_r4ua2"]
 [ext_resource type="Resource" uid="uid://vllu5cwfusm4" path="res://guns/resources/pistol.tres" id="3_m64rg"]
 
@@ -11,8 +12,13 @@ position = Vector3(0, 1, 0)
 base_FOV = 75.0
 primary_weapon = ExtResource("1_r4ua2")
 secondary_weapon = ExtResource("3_m64rg")
+melee_weapon = ExtResource("1_m64rg")
 run_speed = 5.0
 jumps = 1
-jump_strength = 4.5
+jump_strength = 5.5
 gravity = 9.8
+ground_accel = 11.0
+ground_decel = 7.0
+ground_friction = 3.5
+air_accel = 800.0
 metadata/_custom_type_script = "uid://c2tlqd66a54nv"

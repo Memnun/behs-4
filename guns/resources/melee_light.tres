@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://ctltn48arl2pe"]
+
+[ext_resource type="PackedScene" uid="uid://dirmxjq5tlmer" path="res://guns/blend/light_melee_alt.blend" id="1_e25j4"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_fncjf"]
+
+[resource]
+script = ExtResource("1_fncjf")
+name = &"Light Melee"
+position = Vector3(0.3, -0.28, -0.45)
+alt_mesh = ExtResource("1_e25j4")
+sprint_FOV_zoom = 1.35
+ADS_FOV_zoom = 1.0
+is_melee = true
+hitscan = true
+scan_range = 1.5
+fire_speed = 0.45
+run_speed = 1.35
+sprint_speed = 1.7
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

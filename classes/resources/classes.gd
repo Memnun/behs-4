@@ -17,3 +17,7 @@ class_name Classes extends Resource
 @export var jumps : int
 @export var jump_strength : float
 @export var gravity : float
+@export var ground_accel : float
+@export var ground_decel : float
+@export var ground_friction : float
+@export var air_accel : float

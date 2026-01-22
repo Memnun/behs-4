@@ -37,7 +37,7 @@ Weapon types:
 
 (melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
 
-light melee (knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee)
+light melee (knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee) (stab test model done)
 
 medium melee (swords for short stab, maces for swings. middle speed, middle range)
 
@@ -55,7 +55,7 @@ dmr (high damage low fire rate hitscan, with tracer beam. can ads) (test model d
 
 minigun (rapid high spread med-high speed projectiles. no ads) (test model done)
 
-flamethrower (conic frustum that ticks DoT. no ads)
+flamethrower (conic frustum that ticks DoT. no ads) (test model done)
 
 shield (blocks all incoming damage in view. auto dual-wields with other weapons, prevents ads)
 
