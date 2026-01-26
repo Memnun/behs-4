@@ -98,7 +98,7 @@ func _physics_process(delta: float) -> void:
 	camera.fov = lerp(camera.fov, targetFOV, 0.2)
 	
 	if (Input.is_action_just_pressed("jump") and Jumps > 0) or (Input.is_action_pressed("jump") and is_on_floor()):
-		target_velocity += Vector3.UP * player_class.CLASS_TYPE.jump_strength
+		target_velocity.y = max(player_class.CLASS_TYPE.jump_strength,target_velocity.y+player_class.CLASS_TYPE.jump_strength)
 		Jumps -= 1
 	
 	velocity = target_velocity
