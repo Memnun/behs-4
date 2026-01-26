@@ -37,7 +37,7 @@ Weapon types:
 
 (melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
 
-light melee (knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee) (stab test model done)
+light melee (knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee) (test models done)
 
 medium melee (swords for short stab, maces for swings. middle speed, middle range)
 

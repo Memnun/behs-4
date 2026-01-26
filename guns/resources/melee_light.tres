@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://ctltn48arl2pe"]
+[gd_resource type="Resource" script_class="Weapons" load_steps=4 format=3 uid="uid://ctltn48arl2pe"]
 
 [ext_resource type="PackedScene" uid="uid://dirmxjq5tlmer" path="res://guns/blend/light_melee_alt.blend" id="1_e25j4"]
 [ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_fncjf"]
+[ext_resource type="PackedScene" uid="uid://dywbw6rqexa1t" path="res://guns/blend/light_melee.blend" id="2_tiulf"]
 
 [resource]
 script = ExtResource("1_fncjf")
 name = &"Light Melee"
 position = Vector3(0.3, -0.28, -0.45)
+mesh = ExtResource("2_tiulf")
 alt_mesh = ExtResource("1_e25j4")
 sprint_FOV_zoom = 1.35
 ADS_FOV_zoom = 1.0

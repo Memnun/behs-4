@@ -51,46 +51,55 @@ func _unhandled_input(event: InputEvent):
 		else:
 			weapon.WEAPON_TYPE = player_class.CLASS_TYPE.melee_weapon
 
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
+var prev_velocity = Vector3.ZERO
+var target_velocity = Vector3.ZERO
+
+func process_gravity(delta: float) -> void:
 	if not is_on_floor():
-		velocity += Vector3.DOWN * player_class.CLASS_TYPE.gravity * delta
-	
-	if Jumps != player_class.CLASS_TYPE.jumps and is_on_floor():
-		Jumps = player_class.CLASS_TYPE.jumps
-	
+		target_velocity.y += prev_velocity.y + (Vector3.DOWN * player_class.CLASS_TYPE.gravity * delta).y
+
+func get_sprint() -> void:
 	if Input.is_action_pressed("sprint"):
 		isSprinting = true
 	else:
 		isSprinting = false
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir := Input.get_vector("left", "right", "up", "down")
-	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	var targetSpeed = 0.0
-	if direction != Vector3.ZERO:
-		targetSpeed = get_move_speed()
-	if direction:
-		velocity.x = move_toward(velocity.x, targetSpeed * direction.x, abs(player_class.CLASS_TYPE.ground_accel))
-		velocity.z = move_toward(velocity.z, targetSpeed * direction.z, abs(player_class.CLASS_TYPE.ground_accel))
-	else:
-		velocity.x = move_toward(velocity.x, targetSpeed * direction.x, abs(player_class.CLASS_TYPE.ground_friction))
-		velocity.z = move_toward(velocity.z, targetSpeed * direction.z, abs(player_class.CLASS_TYPE.ground_friction))
-		
-	#FOV from speed
-	var targetFOV = player_class.CLASS_TYPE.base_FOV * \
-			(weapon.WEAPON_TYPE.sprint_FOV_zoom if (isSprinting and input_dir != Vector2.ZERO) else 1.0) * \
-			(weapon.WEAPON_TYPE.ADS_FOV_zoom if isADS else 1.0)
-	camera.fov = lerp(camera.fov, targetFOV, 0.2)
-	
-	# Handle jump.
-	if Input.is_action_just_pressed("jump") and Jumps > 0:
-		velocity.y = player_class.CLASS_TYPE.jump_strength
-		Jumps -= 1
-		
-	move_and_slide()
 
 func get_move_speed() -> float:
 	return player_class.CLASS_TYPE.run_speed * weapon.WEAPON_TYPE.run_speed * \
 			(weapon.WEAPON_TYPE.sprint_speed if isSprinting else 1.0) * \
 			(weapon.WEAPON_TYPE.ads_speed if isADS else 1.0)
+
+func _physics_process(delta: float) -> void:
+	target_velocity = Vector3.ZERO
+	prev_velocity = velocity
+	var prev_lateral = prev_velocity
+	prev_lateral.y = 0.0
+	
+	if Jumps != player_class.CLASS_TYPE.jumps and is_on_floor():
+		Jumps = player_class.CLASS_TYPE.jumps
+	
+	get_sprint()
+	
+	var input_dir := Input.get_vector("left", "right", "up", "down")
+	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	var targetSpeed = 0.0
+	if direction != Vector3.ZERO:
+		targetSpeed = get_move_speed()
+	if direction == Vector3.ZERO:
+		target_velocity = lerp(prev_lateral.normalized(),direction,player_class.CLASS_TYPE.ground_accel) * move_toward(prev_lateral.length(), targetSpeed, player_class.CLASS_TYPE.ground_accel)
+	else:
+		target_velocity = lerp(prev_lateral.normalized(),direction,player_class.CLASS_TYPE.ground_friction) * move_toward(prev_lateral.length(), targetSpeed, player_class.CLASS_TYPE.ground_friction)
+	
+	process_gravity(delta)
+	
+	var targetFOV = player_class.CLASS_TYPE.base_FOV * \
+			(weapon.WEAPON_TYPE.sprint_FOV_zoom if (isSprinting and input_dir != Vector2.ZERO) else 1.0) * \
+			(weapon.WEAPON_TYPE.ADS_FOV_zoom if isADS else 1.0)
+	camera.fov = lerp(camera.fov, targetFOV, 0.2)
+	
+	if (Input.is_action_just_pressed("jump") and Jumps > 0) or (Input.is_action_pressed("jump") and is_on_floor()):
+		target_velocity += Vector3.UP * player_class.CLASS_TYPE.jump_strength
+		Jumps -= 1
+	
+	velocity = target_velocity
+	move_and_slide()
