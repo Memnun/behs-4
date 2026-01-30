@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "7e0a318a60a3d62a",
+    "type": "split",
+    "children": [
+      {
+        "id": "68093899d61ff4b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bba3e2e14c619bd4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49bfb89c3265908c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4265bd3bb87bd55b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1f3f85d2d794b0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "981f424e4b5e6e38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f4edcacdac8de973",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "440874cc8124c69a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a77fa3ac0f99ad7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b433901340ead66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8d2b6d9421c8cc2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "84614f36d06c0907",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5ffbf21618967746",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d586b9806f99ae4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bba3e2e14c619bd4",
+  "lastOpenFiles": [
+    "README.md",
+    "wiki/Classes/Witch.md",
+    "wiki/Stats/Mana.md",
+    "wiki/Stats/Health.md",
+    "wiki/Stats/Energy.md",
+    "wiki/Stats/Vitality.md",
+    "wiki/Stats/Attunement.md",
+    "wiki/Stats/Dexterity.md",
+    "wiki/Stats/Strength.md",
+    "wiki/Stats",
+    "wiki/Stats/Stats.md",
+    "wiki/Weapons",
+    "wiki/templates/Melee.md",
+    "wiki/Weapons/Rocket Launcher.md",
+    "wiki/Weapons/Grenade Launcher.md",
+    "wiki/Weapons/Shield.md",
+    "wiki/Weapons/Flamethrower.md",
+    "wiki/Weapons/Minigun.md",
+    "wiki/Weapons/DMR.md",
+    "wiki/Weapons/Assault Rifle.md",
+    "wiki/Weapons/SMG.md",
+    "wiki/Weapons/Shotgun.md",
+    "wiki/Weapons/Pistol.md",
+    "wiki/Weapons/Heavy Melee.md",
+    "wiki/Weapons/Medium Melee.md",
+    "wiki/Weapons/Light Melee.md",
+    "wiki/Classes/Weaver.md",
+    "wiki/Classes/Sapper.md",
+    "wiki/Classes",
+    "wiki/templates",
+    "wiki"
+  ]
+}

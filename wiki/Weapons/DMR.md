@@ -1,0 +1,1 @@
+high damage low fire rate hitscan, with tracer beam. can ads

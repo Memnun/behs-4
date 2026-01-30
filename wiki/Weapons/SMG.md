@@ -1,0 +1,1 @@
+rapid low spread hitscan. no ads

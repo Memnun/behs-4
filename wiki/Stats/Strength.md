@@ -1,0 +1,1 @@
+melee damage, carry capacity, physical damage resistance

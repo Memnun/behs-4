@@ -1,0 +1,1 @@
+gun damage, movement speed, dodge chance

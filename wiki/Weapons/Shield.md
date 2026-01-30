@@ -1,0 +1,1 @@
+blocks percentage incoming damage in view, grants a minor knockback and damage when sprinting into enemies. auto dual-wields with other weapons, prevents ads

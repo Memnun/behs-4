@@ -1,0 +1,1 @@
+slow direct-fire projectiles that explode on impact. can ads

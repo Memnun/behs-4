@@ -1,0 +1,1 @@
+mid speed mid damage hitscan. can ads

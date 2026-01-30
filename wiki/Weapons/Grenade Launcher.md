@@ -1,0 +1,1 @@
+slow parabolic projectiles that explode on impact. no ads

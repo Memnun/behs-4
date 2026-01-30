@@ -1,0 +1,1 @@
+conic frustum that ticks DoT. no ads

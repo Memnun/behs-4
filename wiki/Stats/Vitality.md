@@ -1,0 +1,1 @@
+max health, max stamina

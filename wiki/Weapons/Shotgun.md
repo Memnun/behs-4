@@ -1,0 +1,1 @@
+nine hitscan pellets in fixed formation. no ads

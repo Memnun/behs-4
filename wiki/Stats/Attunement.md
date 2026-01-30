@@ -1,0 +1,1 @@
+spell damage, radar radius, spell resistance
