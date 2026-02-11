@@ -13,3 +13,7 @@ Melee: [[Heavy Melee]]
 [[Energy]]: 5
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Guard Skill Tree.canvas]]

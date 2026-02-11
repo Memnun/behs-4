@@ -19,7 +19,7 @@
 
 Weapon types:
 - [[Light Melee]] (test models done)
-- [[Medium Melee]]
+- [[Medium Melee]] (sword model done, need mace)
 - [[Heavy Melee]]
 - [[Pistol]] (test model done)
 - [[Shotgun]] (test model done)

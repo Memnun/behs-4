@@ -13,3 +13,7 @@ Melee: [[Heavy Melee]]
 [[Energy]]: 10
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Paladin Skill Tree.canvas]]

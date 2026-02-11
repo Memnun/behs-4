@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"88062dc53e00f05e","type":"text","text":"Fury Mastery","x":-140,"y":-40,"width":250,"height":60},
+		{"id":"34c9d10de3ed5034","type":"text","text":"Melee Mastery","x":460,"y":-40,"width":250,"height":60},
+		{"id":"f294eeb63366e4a3","type":"text","text":"Medium Melee Armaments","x":460,"y":80,"width":250,"height":60},
+		{"id":"e19158a9884822eb","type":"text","text":"Ranged Fury Mastery","x":760,"y":80,"width":250,"height":60},
+		{"id":"b65be073d401e3d5","type":"text","text":"Heavy Melee Armaments","x":460,"y":200,"width":250,"height":60},
+		{"id":"19ae9c73d48f36a3","type":"text","text":"SMG Armaments","x":760,"y":200,"width":250,"height":60},
+		{"id":"8e7ae8ee27e11b51","type":"text","text":"Aggressive Fury","x":160,"y":80,"width":250,"height":60},
+		{"id":"a1b4e9e42bab10e6","type":"text","text":"Lethal Fury","x":160,"y":200,"width":250,"height":60},
+		{"id":"cb4f88d97653eb55","type":"text","text":"Alacritous Fury","x":-140,"y":80,"width":250,"height":60},
+		{"id":"b0b93d91e8569762","type":"text","text":"Acrobatic Fury","x":-140,"y":200,"width":250,"height":60},
+		{"id":"f835b8ab23e73294","type":"text","text":"Vampiric Fury","x":20,"y":320,"width":250,"height":60},
+		{"id":"7b03597df8864de1","x":1060,"y":200,"width":250,"height":60,"type":"text","text":"Shotgun Armaments"}
+	],
+	"edges":[
+		{"id":"9a4b697405eeaef3","fromNode":"88062dc53e00f05e","fromSide":"bottom","toNode":"cb4f88d97653eb55","toSide":"top"},
+		{"id":"353bfdb374c2c202","fromNode":"cb4f88d97653eb55","fromSide":"bottom","toNode":"b0b93d91e8569762","toSide":"top"},
+		{"id":"02ae06f2ced4bd96","fromNode":"88062dc53e00f05e","fromSide":"bottom","toNode":"8e7ae8ee27e11b51","toSide":"top"},
+		{"id":"5346e617007898d1","fromNode":"8e7ae8ee27e11b51","fromSide":"bottom","toNode":"a1b4e9e42bab10e6","toSide":"top"},
+		{"id":"f159cb3e11181652","fromNode":"8e7ae8ee27e11b51","fromSide":"bottom","toNode":"f835b8ab23e73294","toSide":"top"},
+		{"id":"388817959b71b616","fromNode":"34c9d10de3ed5034","fromSide":"bottom","toNode":"f294eeb63366e4a3","toSide":"top"},
+		{"id":"40b9e6ae57a2fdac","fromNode":"f294eeb63366e4a3","fromSide":"bottom","toNode":"b65be073d401e3d5","toSide":"top"},
+		{"id":"10950e1952b8a6ce","fromNode":"34c9d10de3ed5034","fromSide":"bottom","toNode":"e19158a9884822eb","toSide":"top"},
+		{"id":"8ccf530501d086f1","fromNode":"e19158a9884822eb","fromSide":"bottom","toNode":"19ae9c73d48f36a3","toSide":"top"},
+		{"id":"537be588f46e63cf","fromNode":"e19158a9884822eb","fromSide":"bottom","toNode":"7b03597df8864de1","toSide":"top"}
+	]
+}

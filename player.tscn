@@ -1,27 +1,27 @@
-[gd_scene load_steps=7 format=3 uid="uid://cfmkegeb28tk8"]
+[gd_scene format=3 uid="uid://cfmkegeb28tk8"]
 
 [ext_resource type="Script" uid="uid://dw61udjvtn2b4" path="res://player.gd" id="1_4flbx"]
-[ext_resource type="Resource" uid="uid://wlynflxccbof" path="res://classes/resources/barbarian.tres" id="3_sweqy"]
+[ext_resource type="Resource" uid="uid://gkdxuw6rrown" path="res://classes/resources/spider.tres" id="3_sweqy"]
 [ext_resource type="PackedScene" uid="uid://b3eafg0c5upd6" path="res://guns/weapon.tscn" id="4_hqtel"]
 [ext_resource type="PackedScene" uid="uid://dhusjp3a5xwl5" path="res://classes/class.tscn" id="4_sweqy"]
 [ext_resource type="Resource" uid="uid://vllu5cwfusm4" path="res://guns/resources/pistol.tres" id="5_sweqy"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_i3pqv"]
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" unique_id=1358523386]
 script = ExtResource("1_4flbx")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1683332357]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("CapsuleShape3D_i3pqv")
 
-[node name="Class" parent="." instance=ExtResource("4_sweqy")]
+[node name="Class" parent="." unique_id=856661108 instance=ExtResource("4_sweqy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 CLASS_TYPE = ExtResource("3_sweqy")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=685249816]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4894862, 0)
 
-[node name="Weapon" parent="Camera3D" instance=ExtResource("4_hqtel")]
+[node name="Weapon" parent="Camera3D" unique_id=906935788 instance=ExtResource("4_hqtel")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, -0.28, -0.45)
 WEAPON_TYPE = ExtResource("5_sweqy")

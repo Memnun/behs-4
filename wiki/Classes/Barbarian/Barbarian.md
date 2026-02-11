@@ -2,7 +2,7 @@
 
 ### Weapons
 Primary: [[Assault Rifle]]
-Secondary: [[Shotgun]]
+Secondary: [[Pistol]]
 Melee: [[Light Melee]]
 
 ## Base Stats
@@ -13,3 +13,7 @@ Melee: [[Light Melee]]
 [[Energy]]: 5
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Barbarian Skill Tree.canvas]]

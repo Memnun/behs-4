@@ -13,3 +13,7 @@ Melee: [[Light Melee]]
 [[Energy]]: 15
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Witch Skill Tree.canvas]]

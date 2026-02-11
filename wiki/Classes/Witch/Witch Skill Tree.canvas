@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"2e7e6f34bf7e88a6","x":180,"y":80,"width":250,"height":60,"type":"file","file":"wiki/Classes/Witch/Trap Expert.md"},
+		{"id":"87078f3a379a3f55","type":"file","file":"wiki/Classes/Witch/Summon Chittering Whelp.md","x":-120,"y":320,"width":250,"height":60},
+		{"id":"dd9119d322d1ca8d","type":"file","file":"wiki/Classes/Witch/Summon Stellar Wrath.md","x":-420,"y":200,"width":250,"height":60},
+		{"id":"18317f79fb249737","type":"file","file":"wiki/Classes/Witch/Summon Noxious Cloud.md","x":-420,"y":80,"width":250,"height":60},
+		{"id":"4ab99b4272579d6a","type":"file","file":"wiki/Classes/Witch/Summoning Mastery.md","x":-420,"y":-40,"width":250,"height":60},
+		{"id":"f4b74a654e2ac1ea","type":"file","file":"wiki/Classes/Witch/Alchemy Mastery.md","x":-120,"y":-160,"width":250,"height":60},
+		{"id":"210f4f0ac8e0eb55","type":"file","file":"wiki/Classes/Witch/Summon Stygian Tendril.md","x":-420,"y":-160,"width":250,"height":60},
+		{"id":"347f60a41cb7d2ac","type":"file","file":"wiki/Classes/Witch/Summon Skeleton.md","x":-120,"y":200,"width":250,"height":60},
+		{"id":"9086187846e4c183","x":-120,"y":-40,"width":250,"height":60,"type":"file","file":"wiki/Classes/Witch/Potion Expert.md"},
+		{"id":"2e6c0f09441d4d84","x":180,"y":-40,"width":250,"height":60,"type":"file","file":"wiki/Classes/Witch/Grenade Expert.md"}
+	],
+	"edges":[
+		{"id":"7a75eb13aa794fb1","fromNode":"210f4f0ac8e0eb55","fromSide":"bottom","toNode":"4ab99b4272579d6a","toSide":"top"},
+		{"id":"33e7a275bb32f5bb","fromNode":"4ab99b4272579d6a","fromSide":"bottom","toNode":"18317f79fb249737","toSide":"top"},
+		{"id":"ff039af80b83c9df","fromNode":"4ab99b4272579d6a","fromSide":"bottom","toNode":"347f60a41cb7d2ac","toSide":"top"},
+		{"id":"d0a1adef420c93dc","fromNode":"18317f79fb249737","fromSide":"bottom","toNode":"dd9119d322d1ca8d","toSide":"top"},
+		{"id":"70c7ec2459d3b3c8","fromNode":"347f60a41cb7d2ac","fromSide":"bottom","toNode":"87078f3a379a3f55","toSide":"top"},
+		{"id":"548598b7242a216e","fromNode":"f4b74a654e2ac1ea","fromSide":"bottom","toNode":"9086187846e4c183","toSide":"top"},
+		{"id":"51994c01b3dba533","fromNode":"f4b74a654e2ac1ea","fromSide":"bottom","toNode":"2e6c0f09441d4d84","toSide":"top"},
+		{"id":"9b425c4196e26607","fromNode":"2e6c0f09441d4d84","fromSide":"bottom","toNode":"2e7e6f34bf7e88a6","toSide":"top"}
+	]
+}

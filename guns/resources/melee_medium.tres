@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Weapons" format=3 uid="uid://cwmng7hcas66n"]
+
+[ext_resource type="PackedScene" uid="uid://dx7ryc2dhwsjp" path="res://guns/blend/medium_melee_alt.blend" id="1_n3ndw"]
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="3_8un3g"]
+
+[resource]
+script = ExtResource("3_8un3g")
+name = &"Medium Melee"
+position = Vector3(0.3, -0.28, -0.45)
+alt_mesh = ExtResource("1_n3ndw")
+sprint_FOV_zoom = 1.2
+ADS_FOV_zoom = 1.0
+is_melee = true
+hitscan = true
+scan_range = 5.0
+fire_speed = 0.625
+run_speed = 1.2
+sprint_speed = 1.7
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

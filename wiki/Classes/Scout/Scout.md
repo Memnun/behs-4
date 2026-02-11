@@ -13,3 +13,7 @@ Melee: [[Light Melee]]
 [[Energy]]: 10
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Scout Skill Tree.canvas]]

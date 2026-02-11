@@ -13,3 +13,7 @@ Melee: [[Medium Melee]]
 [[Energy]]: 15
 [[Health]]: 0
 [[Mana]]: 0
+
+## Skill Tree
+
+![[Weaver Skill Tree.canvas]]
