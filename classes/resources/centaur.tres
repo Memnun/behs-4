@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Classes" load_steps=4 format=3 uid="uid://ds7jmkv2w5510"]
+[gd_resource type="Resource" script_class="Classes" format=3 uid="uid://ds7jmkv2w5510"]
 
 [ext_resource type="Resource" uid="uid://d16fnx166glir" path="res://guns/resources/minigun.tres" id="1_fwkbw"]
 [ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_q8gii"]
@@ -15,8 +15,9 @@ run_speed = 5.0
 jumps = 1
 jump_strength = 9.0
 gravity = 25.0
-ground_accel = 0.15
-ground_decel = 7.0
-ground_friction = 0.7
-air_accel = 800.0
+ground_accel = 8.0
+ground_decel = 5.0
+ground_friction = 3.0
+air_accel = 6.0
+air_friction = 0.3
 metadata/_custom_type_script = "uid://c2tlqd66a54nv"

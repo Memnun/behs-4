@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Classes" load_steps=5 format=3 uid="uid://dvc63v6qyd8mm"]
+[gd_resource type="Resource" script_class="Classes" format=3 uid="uid://dvc63v6qyd8mm"]
 
 [ext_resource type="Resource" uid="uid://ctltn48arl2pe" path="res://guns/resources/melee_light.tres" id="1_hi4oh"]
 [ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_ta304"]
@@ -17,8 +17,9 @@ run_speed = 5.0
 jumps = 1
 jump_strength = 9.0
 gravity = 25.0
-ground_accel = 0.15
-ground_decel = 7.0
-ground_friction = 0.7
-air_accel = 800.0
+ground_accel = 8.0
+ground_decel = 5.0
+ground_friction = 3.0
+air_accel = 6.0
+air_friction = 0.3
 metadata/_custom_type_script = "uid://c2tlqd66a54nv"

@@ -83,12 +83,24 @@ func _physics_process(delta: float) -> void:
 	var input_dir := Input.get_vector("left", "right", "up", "down")
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	var targetSpeed = 0.0
-	if direction != Vector3.ZERO:
-		targetSpeed = get_move_speed()
-	if direction == Vector3.ZERO:
-		target_velocity = lerp(prev_lateral.normalized(),direction,player_class.CLASS_TYPE.ground_accel) * move_toward(prev_lateral.length(), targetSpeed, player_class.CLASS_TYPE.ground_accel)
+	
+	var alignment = (prev_lateral.normalized().dot(direction) + 1.0) / 2.0
+	
+	var ground_traction = lerp(player_class.CLASS_TYPE.ground_accel, player_class.CLASS_TYPE.ground_friction, alignment)
+	var air_traction = lerp(player_class.CLASS_TYPE.air_accel, player_class.CLASS_TYPE.air_friction, alignment)
+	
+	if is_on_floor():
+		if direction != Vector3.ZERO:
+			targetSpeed = get_move_speed()
+			target_velocity = lerp(prev_lateral, targetSpeed * direction, ground_traction * delta)
+		else:
+			target_velocity = lerp(prev_lateral, targetSpeed * direction, player_class.CLASS_TYPE.ground_decel * delta)
 	else:
-		target_velocity = lerp(prev_lateral.normalized(),direction,player_class.CLASS_TYPE.ground_friction) * move_toward(prev_lateral.length(), targetSpeed, player_class.CLASS_TYPE.ground_friction)
+		if direction != Vector3.ZERO:
+			targetSpeed = get_move_speed()
+			target_velocity = lerp(prev_lateral, targetSpeed * direction, air_traction * delta)
+		else:
+			target_velocity = lerp(prev_lateral, targetSpeed * direction, player_class.CLASS_TYPE.air_friction * delta)
 	
 	process_gravity(delta)
 	
@@ -98,7 +110,7 @@ func _physics_process(delta: float) -> void:
 	camera.fov = lerp(camera.fov, targetFOV, 0.2)
 	
 	if (Input.is_action_just_pressed("jump") and Jumps > 0) or (Input.is_action_pressed("jump") and is_on_floor()):
-		target_velocity.y = max(player_class.CLASS_TYPE.jump_strength,target_velocity.y+player_class.CLASS_TYPE.jump_strength)
+		target_velocity.y = max(player_class.CLASS_TYPE.jump_strength, target_velocity.y + player_class.CLASS_TYPE.jump_strength)
 		Jumps -= 1
 	
 	velocity = target_velocity

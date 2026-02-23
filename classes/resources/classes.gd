@@ -21,3 +21,4 @@ class_name Classes extends Resource
 @export var ground_decel : float
 @export var ground_friction : float
 @export var air_accel : float
+@export var air_friction : float
