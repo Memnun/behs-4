@@ -1,1 +1,1 @@
-slow direct-fire projectiles that explode on impact. can ads
+slow fire rate and projectile speed projectiles that explode on impact. can "ads" (hipfired it direct-fire targets your cursor at moment of click, ads it highlights all enemies that you or an ally can see and indirect-fires over there instead.)

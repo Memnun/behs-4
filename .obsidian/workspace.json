@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "wiki/Weapons/DMR.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "DMR"
             }
           }
         ]
@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -192,6 +194,14 @@
   },
   "active": "bba3e2e14c619bd4",
   "lastOpenFiles": [
+    "wiki/Classes/Sniper/Sniper.md",
+    "README.md",
+    "wiki/Weapons/Rocket Launcher.md",
+    "wiki/Classes/Barbarian/Barbarian.md",
+    "wiki/Classes/Paladin/Paladin.md",
+    "wiki/Weapons/Shield.md",
+    "wiki/Classes/Sapper/Sapper.md",
+    "wiki/Weapons/Grenade Launcher.md",
     "classes/resources/spider.tres-T0amLD",
     "player.tscn-9RsbuM",
     "classes/resources/spider.tres-b6j8NH",
@@ -202,26 +212,20 @@
     "player.tscn-7YHZ9A",
     "classes/resources/witch.tres-IFcMx3",
     "classes/resources/sniper.tres-3DfdNJ",
-    "classes/resources/barbarian.tres-4UJwpA",
     "wiki/Weapons/Medium Melee.md",
-    "README.md",
     "wiki/Weapons/Light Melee.md",
     "icon.svg",
     "wiki/Classes/Pyro/Pyro Skill Tree.canvas",
     "wiki/Classes/Pyro/Pyro.md",
     "wiki/Classes/Sapper/Sapper Skill Tree.canvas",
-    "wiki/Classes/Sapper/Sapper.md",
     "wiki/Classes/Scout/Scout Skill Tree.canvas",
     "wiki/Classes/Scout/Scout.md",
     "wiki/Classes/Sniper/Sniper Skill Tree.canvas",
-    "wiki/Classes/Sniper/Sniper.md",
     "wiki/Classes/Weaver/Weaver.md",
     "wiki/Classes/Weaver/Weaver Skill Tree.canvas",
     "wiki/Classes/Paladin/Paladin Skill Tree.canvas",
-    "wiki/Classes/Paladin/Paladin.md",
     "wiki/Classes/Guard/Guard Skill Tree.canvas",
     "wiki/Classes/Guard/Guard.md",
-    "wiki/Classes/Barbarian/Barbarian.md",
     "wiki/Classes/Barbarian/Barbarian Skill Tree.canvas",
     "wiki/Classes/Witch/Witch Skill Tree.canvas",
     "wiki/Classes/Witch/Summon Stygian Tendril.md",
@@ -235,8 +239,6 @@
     "wiki/Classes/Witch/Summon Noxious Cloud.md",
     "wiki/Classes/Witch/Summon Skeleton.md",
     "wiki/Classes/Witch/Summon Stellar Wrath.md",
-    "wiki/Classes/Witch/Trap Expert.md",
-    "wiki/Weapons/SMG.md",
-    "wiki/Stats/Mana.md"
+    "wiki/Classes/Witch/Trap Expert.md"
   ]
 }
