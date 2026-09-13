@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/Weapons/DMR.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DMR"
+              "title": "README"
+            }
+          }
+        ]
+      },
+      {
+        "id": "78661381397a3d83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "171e9326fa88721d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -192,28 +208,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "bba3e2e14c619bd4",
+  "active": "e1f3f85d2d794b0e",
   "lastOpenFiles": [
-    "wiki/Classes/Sniper/Sniper.md",
+    "player.tscn-qSDDpl",
+    "guns/blend/smg.blend.import-a4Xu5y",
+    "guns/blend/light_melee.blend.import-wOVBL4",
+    "guns/blend/dmr.blend.import-GKxTsU",
+    "guns/blend/assault_rifle.blend.import-NAewqR",
+    "addons/kenney_particle_pack/symbol_02.png.import-3dkrtX",
+    "addons/kenney_particle_pack/star_03.png.import-5yt0X9",
+    "addons/kenney_prototype_textures/purple/texture_06.png.import-FzEpjx",
+    "addons/kenney_prototype_textures/red/texture_11.png.import-1SgT2V",
+    "addons/kenney_prototype_textures/green/texture_09.png.import-UXnR5a",
+    "project.godot-GR8us5",
     "README.md",
+    "wiki/Weapons/Heavy Melee.md",
+    "wiki/Weapons/Medium Melee.md",
+    "wiki/Weapons/Light Melee.md",
+    "wiki/Stats/Stats.md",
+    "wiki/Stats/Vitality.md",
+    "wiki/Classes/Sniper/Sniper.md",
+    "wiki/Weapons/DMR.md",
     "wiki/Weapons/Rocket Launcher.md",
     "wiki/Classes/Barbarian/Barbarian.md",
     "wiki/Classes/Paladin/Paladin.md",
     "wiki/Weapons/Shield.md",
     "wiki/Classes/Sapper/Sapper.md",
     "wiki/Weapons/Grenade Launcher.md",
-    "classes/resources/spider.tres-T0amLD",
-    "player.tscn-9RsbuM",
-    "classes/resources/spider.tres-b6j8NH",
-    "player.tscn-OFG82Y",
-    "classes/resources/spider.tres-Nsfq7u",
-    "player.tscn-qIv0lS",
-    "classes/resources/spider.tres-BOu9iP",
-    "player.tscn-7YHZ9A",
-    "classes/resources/witch.tres-IFcMx3",
-    "classes/resources/sniper.tres-3DfdNJ",
-    "wiki/Weapons/Medium Melee.md",
-    "wiki/Weapons/Light Melee.md",
     "icon.svg",
     "wiki/Classes/Pyro/Pyro Skill Tree.canvas",
     "wiki/Classes/Pyro/Pyro.md",
@@ -231,14 +252,9 @@
     "wiki/Classes/Witch/Summon Stygian Tendril.md",
     "wiki/Classes/Witch/Summoning Mastery.md",
     "wiki/Classes/Witch/Alchemy Mastery.md",
-    "wiki/Stats/Stats.md",
     "wiki/Classes/Witch/Witch.md",
     "wiki/Classes/Witch/Grenade Expert.md",
     "wiki/Classes/Witch/Potion Expert.md",
-    "wiki/Classes/Witch/Summon Chittering Whelp.md",
-    "wiki/Classes/Witch/Summon Noxious Cloud.md",
-    "wiki/Classes/Witch/Summon Skeleton.md",
-    "wiki/Classes/Witch/Summon Stellar Wrath.md",
-    "wiki/Classes/Witch/Trap Expert.md"
+    "wiki/Classes/Witch/Summon Chittering Whelp.md"
   ]
 }

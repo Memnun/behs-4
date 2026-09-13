@@ -1,3 +1,3 @@
 (melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
 
-swords for short stab, maces for swings. middle speed, middle range
+swords for short stab, maces for swings. middle speed, middle range. "technically" median between light and heavy, but functionally worse than either one at damage / mobility. upgrades are generally utility-oriented to make up for it (lifesteal, debuffs, etc)
