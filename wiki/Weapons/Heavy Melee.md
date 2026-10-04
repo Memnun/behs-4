@@ -1,3 +1,5 @@
-(melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
+~~(melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
 
-spears for close stab, axes for swings. slow, longer range, higher damage. great cc and peak single-shot damage makes it worthy of being a primary in its own right
+~~spears for close stab, axes for swings. slow, longer range, higher damage. great cc and peak single-shot damage makes it worthy of being a primary in its own right
+
+fuck the "two types" thing. a Single halberd/glaive kinda deal. primary fire swing, secondary fire stab.

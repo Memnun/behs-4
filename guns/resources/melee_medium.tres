@@ -7,6 +7,7 @@
 script = ExtResource("3_8un3g")
 name = &"Medium Melee"
 position = Vector3(0.3, -0.28, -0.45)
+mesh = ExtResource("1_n3ndw")
 alt_mesh = ExtResource("1_n3ndw")
 sprint_FOV_zoom = 1.2
 ADS_FOV_zoom = 1.0

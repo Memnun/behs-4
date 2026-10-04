@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Weapons" format=3 uid="uid://b2g5e8n5axu7n"]
+
+[ext_resource type="Script" uid="uid://d3fhhv2s0j1jw" path="res://guns/resources/weapons.gd" id="1_o55li"]
+[ext_resource type="PackedScene" uid="uid://bm51i05wa8gml" path="res://guns/blend/heavy_melee_alt.blend" id="1_xrogb"]
+
+[resource]
+script = ExtResource("1_o55li")
+name = &"Heavy Melee"
+position = Vector3(0.3, -0.28, -0.45)
+mesh = ExtResource("1_xrogb")
+alt_mesh = ExtResource("1_xrogb")
+sprint_FOV_zoom = 1.1
+ADS_FOV_zoom = 1.0
+is_melee = true
+hitscan = true
+scan_range = 10.0
+fire_speed = 0.8
+run_speed = 1.0
+sprint_speed = 1.7
+ads_speed = 1.0
+metadata/_custom_type_script = "uid://d3fhhv2s0j1jw"

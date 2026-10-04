@@ -1,3 +1,5 @@
-(melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)
+~~(melee comes in 2 types: stab and swing. stab weapons are hitscan and deal more damage, swing weapons are a hitbox that sweeps in front and hit everything they connect with)~~
 
-knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee. potential as highest dps melee, but with significant risk
+~~knives for v short stab, gauntlets for swings. fastest, shortest range, same damage as medium melee. potential as highest dps melee, but with significant risk~~
+
+actually fuck the "two types" thing, there is Just knife. primary fire is a swing, alt fire is the stab.

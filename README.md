@@ -18,9 +18,9 @@
 (the test weapon models all use the same materials, just different geometry.)
 
 Weapon types:
-- [[Light Melee]] (test models done)
-- [[Medium Melee]] (sword model done, need mace)
-- [[Heavy Melee]]
+- [[Light Melee]] (test model done)
+- [[Medium Melee]] (test model done)
+- [[Heavy Melee]] (test model done)
 - [[Pistol]] (test model done)
 - [[Shotgun]] (test model done)
 - [[SMG]] (test model done)

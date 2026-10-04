@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="Classes" format=3 uid="uid://ds7jmkv2w5510"]
 
 [ext_resource type="Resource" uid="uid://d16fnx166glir" path="res://guns/resources/minigun.tres" id="1_fwkbw"]
+[ext_resource type="Resource" uid="uid://b2g5e8n5axu7n" path="res://guns/resources/melee_heavy.tres" id="1_pa2yk"]
 [ext_resource type="Script" uid="uid://c2tlqd66a54nv" path="res://classes/resources/classes.gd" id="1_q8gii"]
 [ext_resource type="Resource" uid="uid://dpx8j3x6r1pyn" path="res://guns/resources/shotgun.tres" id="3_pa2yk"]
 
@@ -11,6 +12,7 @@ position = Vector3(0, 1, 0)
 base_FOV = 75.0
 primary_weapon = ExtResource("1_fwkbw")
 secondary_weapon = ExtResource("3_pa2yk")
+melee_weapon = ExtResource("1_pa2yk")
 run_speed = 5.0
 jumps = 1
 jump_strength = 9.0
