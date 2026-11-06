@@ -4,13 +4,23 @@
 
 ## Notes
 
-6 equip slots:
-- primary
-- secondary
-- melee
-- helm
-- torso
-- legs
+~~6 equip slots:~~
+- ~~primary~~
+- ~~secondary~~
+- ~~melee~~
+- ~~helm~~
+- ~~torso~~
+- ~~legs~~
+
+okay so weapons arent swappable. its just The Weapons You Have, class-based. individual weapon types have their own mod slots, the character has 4 equip slots:
+ - head (helmets, goggles, masks)
+ - torso (armor, robes)
+ - legs (pants, greaves, cart(guard only))
+ - back (cape, wings, backpack)
+
+world design:
+ - partially ruined modern city, patched and rebuilt with both sci-fi and fantasy elements intermixed (blown out concrete skyscraper with futuristic buttresses and wooden patches over holes in the facade, combinations of Goo Tanks and witch's cauldrons in old labs, etc etc.)
+ - Normal Foliage (flowers, grass, green trees, shits you would expect in suburbia) exists only in specifically manicured spaces for it; Wild growth is fungus, moss, ferns, and dead or twisted trees. the "real world" of Bug City is alien and foreign; remnants of the time before the Confluence are held onto by the chronically out-of-touch
 
 
 [[Stats]]

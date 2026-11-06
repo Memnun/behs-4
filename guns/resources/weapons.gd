@@ -4,6 +4,7 @@ class_name Weapons extends Resource
 @export_category("Weapon Orientation")
 @export var position : Vector3
 @export var rotation : Vector3
+@export var ADS_offset : Vector3
 @export_category("Visual Settings")
 @export var mesh : PackedScene
 @export var alt_mesh : PackedScene
@@ -13,6 +14,7 @@ class_name Weapons extends Resource
 @export var is_melee : bool
 @export var hitscan : bool
 @export var can_ADS : bool
+@export var ADS_rate : float
 @export var scan_range : float
 @export var projectile : String
 @export var fire_speed : float

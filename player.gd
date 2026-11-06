@@ -50,6 +50,13 @@ func _unhandled_input(event: InputEvent):
 			weapon.WEAPON_TYPE = player_class.CLASS_TYPE.secondary_weapon
 		else:
 			weapon.WEAPON_TYPE = player_class.CLASS_TYPE.melee_weapon
+	
+	if Input.is_action_just_pressed("weapon_main"):
+		weapon.WEAPON_TYPE = player_class.CLASS_TYPE.primary_weapon
+	if Input.is_action_just_pressed("weapon_alt"):
+		weapon.WEAPON_TYPE = player_class.CLASS_TYPE.secondary_weapon
+	if Input.is_action_just_pressed("weapon_melee"):
+		weapon.WEAPON_TYPE = player_class.CLASS_TYPE.melee_weapon
 
 var prev_velocity = Vector3.ZERO
 var target_velocity = Vector3.ZERO
@@ -112,6 +119,13 @@ func _physics_process(delta: float) -> void:
 	if (Input.is_action_just_pressed("jump") and Jumps > 0) or (Input.is_action_pressed("jump") and is_on_floor()):
 		target_velocity.y = max(player_class.CLASS_TYPE.jump_strength, target_velocity.y + player_class.CLASS_TYPE.jump_strength)
 		Jumps -= 1
+	
+	var targetpos = weapon.position
+	if isADS:
+		targetpos = weapon.WEAPON_TYPE.position + weapon.WEAPON_TYPE.ADS_offset
+	else:
+		targetpos = weapon.WEAPON_TYPE.position
+	weapon.position = lerp(weapon.position, targetpos, weapon.WEAPON_TYPE.ADS_rate * delta)
 	
 	velocity = target_velocity
 	move_and_slide()

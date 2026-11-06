@@ -7,10 +7,12 @@
 script = ExtResource("1_idopa")
 name = &"Minigun"
 position = Vector3(0.3, -0.33, -0.55)
+ADS_offset = Vector3(-0.15, -0.13, -0.1)
 mesh = ExtResource("1_1nber")
 sprint_FOV_zoom = 1.2
 ADS_FOV_zoom = 1.3
 can_ADS = true
+ADS_rate = 5.0
 fire_speed = 0.1
 run_speed = 0.65
 sprint_speed = 1.75
